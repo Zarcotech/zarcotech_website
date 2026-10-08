@@ -1,6 +1,6 @@
 function ThankYous() {
   return (
-    <main className="border border-gray-500 rounded-3xl p-8 w-5/12 bg-zinc-900 drop-shadow-[0_0_12px_rgba(255,255,255,0.6)]">
+    <main className="border border-gray-500 rounded-3xl p-8 w-[80%] bg-zinc-900 drop-shadow-[0_0_12px_rgba(255,255,255,0.6)]">
       <h1 className="text-3xl font-bold">acknowledgements</h1>
       <br />
         i would like to thank my family, friends, and community for helping me become who am today. some people i would like to specfically shout out:

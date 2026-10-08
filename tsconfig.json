@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "components/Github.jsx", "components/Projects.jsx"  ],
+, "components/Github.jsx", "components/Projects.jsx", "components/Socials.jsx"  ],
   "exclude": ["node_modules"]
 }

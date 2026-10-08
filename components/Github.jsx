@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import {GitHubCalendar} from 'react-github-calendar';
+import "../app/globals.css"
 
 export default function Github() {
   const [customLoading, setCustomLoading] = useState(true);
@@ -9,9 +10,9 @@ export default function Github() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: '#0d1117', padding: '20px', borderRadius: '6px', minHeight: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div className="[&_.react-activity-calendar]:bg-transparent bg-transparent" style={{ backgroundColor: 'transparent', padding: '20px', borderRadius: '6px', minHeight: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: "blur(2px)" }}>
       {customLoading ? (
-        <div style={{ color: '#8b949e' }}>loading...</div>
+        <div style={{ color: '#8b949e'}}>loading...</div>
       ) : (
         <GitHubCalendar
           username="Zarcotech"

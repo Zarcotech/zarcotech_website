@@ -39,10 +39,11 @@ function TopMenu({ setPage, page }: TopMenuProps) {
                     <button
                         key={tab.page}
                         onClick={() => setPage(tab.page)}
-                        className={`relative z-10 flex flex-1 items-center justify-center rounded-xl text-lg font-semibold tracking-tight transition-all duration-300 ${page === tab.page
+                        className={`relative z-10 flex outline-none flex-1 items-center justify-center rounded-xl text-lg font-semibold tracking-tight transition-all duration-300 ${page === tab.page
                             ? "text-white"
                             : "text-zinc-400 hover:text-white"
                             }`}
+                        
                     >
                         {tab.label}
                     </button>
